@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "32105597241",
+    "firebase_url": "https://evaluacion4-2a420.firebaseio.com",
+    "project_id": "evaluacion4-2a420",
+    "storage_bucket": "evaluacion4-2a420.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32105597241:android:fce328874be220247e00e8",
+        "android_client_info": {
+          "package_name": "com.zeretto4210.evaluacion4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32105597241-a8kvmnsgpdthimpdd67vgbnfldi83ehk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zeretto4210.evaluacion4",
+            "certificate_hash": "9693d2e62dd0efc7b5b8f91d8b2961f1bc1774e7"
+          }
+        },
+        {
+          "client_id": "32105597241-eaelkl0dkls966tkg0to20pp16ggqfka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-B0Ful1os8xNuFqJJC4pD90vyShCmg8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32105597241-eaelkl0dkls966tkg0to20pp16ggqfka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
