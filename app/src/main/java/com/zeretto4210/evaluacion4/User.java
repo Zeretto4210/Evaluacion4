@@ -1,7 +1,7 @@
 package com.zeretto4210.evaluacion4;
 
 public class User {
-    String id, username, password;
+    private String id, username, password;
     public User(){
 
     }

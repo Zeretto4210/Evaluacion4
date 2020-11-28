@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="- Lista de Avistamientos -"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/m_subtitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,17 +23,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PRIMERO INICIAR SESIÓN"
-        app:layout_constraintBottom_toTopOf="@+id/m_pkmn_list"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/m_title" />
 
+    <TextView
+        android:id="@+id/m_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/m_pkmn_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m_subtitle" />
+
     <ListView
         android:id="@+id/m_pkmn_list"
-        android:layout_width="393dp"
-        android:layout_height="552dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/m_title" />
+        app:layout_constraintTop_toBottomOf="@+id/m_count" />
 </androidx.constraintlayout.widget.ConstraintLayout>
